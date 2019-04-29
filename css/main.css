@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    height: 100%; 
+}
+
+.bg img {
+    width: 300px;
+    position: absolute;
+}
+
+#red {
+    left: 100px;
+    filter:sepia(100%) hue-rotate(-50deg) saturate(600%);
+}
+
+#blue {
+    left: 200px;
+}
+
