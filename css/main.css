@@ -10,14 +10,16 @@ html, body {
 .bg img {
     width: 300px;
     position: absolute;
+    opacity:.5;
 }
 
 #red {
-    left: 100px;
+    left: 2px;
     filter:sepia(100%) hue-rotate(-50deg) saturate(600%);
 }
 
-#blue {
-    left: 200px;
-}
 
+#blue{
+    left: -2px;
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+}
